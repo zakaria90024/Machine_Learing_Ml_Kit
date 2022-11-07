@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".zone_Panel.ZoneActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            app:tabBackground="@color/colorPrimary"
+            app:tabGravity="center"
+            app:tabIndicatorColor="@color/black"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@color/black"
+            app:tabTextColor="@color/colorTextDisable">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab1"
+                style="@style/tab_item"
+                android:text="@string/tab1" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab2"
+                style="@style/tab_item"
+                android:text="@string/tab2" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab3"
+                style="@style/tab_item"
+                android:text="@string/tab3" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab4"
+                style="@style/tab_item"
+                android:text="@string/tab4" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab5"
+                style="@style/tab_item"
+                android:text="@string/tab5" />
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tablayout"
+            android:layout_alignParentBottom="true"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:background="@color/colorPrimary">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/textView12"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/ic_qr_scanner"
+                android:onClick="whenClickScanner"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </RelativeLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

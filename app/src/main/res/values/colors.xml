@@ -7,4 +7,20 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#2486CA</color>
+    <color name="colorPrimaryDark">#0086E4</color>
+    <color name="colorAccent">#2486CA</color>
+    <color name="btnRed">#9f0000</color>
+    <color name="successgreen">#00ff00</color>
+    <color name="RecyclerViewBackground">#d6d6d6</color>
+    <color name="background">#4CA9E6</color>
+    <color name="green">#008000</color>
+    <color name="lite_green">#F2F2F2</color>
+    <color name="in_app_snack_bar_text_color">#37474F</color>
+    <color name="text_background">#ebeced</color>
+    <color name="admission_border_cell_color">#CACACA</color>
+
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextDisable">#DDDDDD</color>
+    <color name="colorGrey">#AEAEAE</color>
 </resources>

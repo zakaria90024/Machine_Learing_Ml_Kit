@@ -3,6 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.sasoftbd.machine_learing_ml_kit">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,9 +16,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Machine_Learing_Ml_Kit"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".FaceDetection.FaceDetectionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ImageToText.ImageToTextActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,6 +36,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".problem_solving_java.ProblemTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AutoScrollingBanner.AutoScrollingActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" /> <!-- for Ml kit face detect -->
+        <activity
+            android:name=".zone_Panel.ScannerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zone_Panel.ZoneActivity"
+            android:theme="@style/AppThemeZone"
+            android:exported="true" />
+
     </application>
 
 </manifest>

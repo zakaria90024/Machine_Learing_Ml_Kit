@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/location"
+        android:enabled="true"
+        android:icon="@drawable/ic_location_on_black_24dp"
+        android:orderInCategory="100"
+        android:title="@string/location"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/info"
+        android:icon="@drawable/ic_info"
+        android:orderInCategory="100"
+        android:enabled="true"
+        android:title="@string/info"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/notice"
+        android:enabled="true"
+        android:icon="@drawable/ic_offer"
+        android:orderInCategory="100"
+        android:title="@string/offer"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_recycler"
+        android:orderInCategory="100"
+        android:enabled="true"
+        android:title="@string/recycle"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+   <!-- <item
+        android:id="@+id/searchbtn"
+        android:orderInCategory="100"
+        android:title="search"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />-->
+
+    <item
+        android:id="@+id/action_notification"
+        android:orderInCategory="100"
+        app:actionLayout="@layout/view_alert_notification"
+        app:showAsAction="always"
+        android:title="@string/notification" />
+
+    <item
+        android:id="@+id/action_message"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_email_black_24dp"
+        app:showAsAction="always"
+
+        android:title="message" />
+
+    <item
+        android:id="@+id/user_profile"
+        android:orderInCategory="100"
+        android:title="user"
+        app:showAsAction="always"
+
+        />
+
+</menu>

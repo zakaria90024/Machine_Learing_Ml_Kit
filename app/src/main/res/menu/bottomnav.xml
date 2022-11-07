@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_action_favorites"
+        android:icon="@drawable/ic_add"
+        android:title="Recycle bin" />
+    <item
+        android:id="@+id/nav_action_schedules"
+        android:icon="@drawable/ic_add"
+        android:title="Offer"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/nav_location"
+        android:enabled="true"
+        android:title="Location" />
+    <item
+        android:id="@+id/nav_action_music"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="always"
+        android:title="Rate us" />
+    <item
+        android:id="@+id/nav_action_schedules1"
+        android:icon="@drawable/ic_add"
+        android:title="Share" />
+
+</menu>

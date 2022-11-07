@@ -1,3 +1,88 @@
 <resources>
-    <string name="app_name">Machine_Learing_Ml_Kit</string>
+    <string name="title_activity_main">Deeplaid</string>
+    <string name="title_activity_home">Deeplaid</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="search">search</string>
+    <string name="notification">notification</string>
+    <string name="card">card</string>
+    <string name="not_signed_in">not Signed In</string>
+    <string name="email_address">Email Address</string>
+    <string name="category">category</string>
+    <string name="location">Location</string>
+    <string name="save">Save</string>
+    <string name="offer">Offer</string>
+    <string name="notice">Notice</string>
+    <string name="clear_list">Clear</string>
+
+    <string name="hello_blank_fragment">Im Order Fragment</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_item">Item</string>
+    <string name="menu_draft">Draft</string>
+    <string name="menu_group">Group</string>
+    <string name="menu_send">Send</string>
+    <string name="default_notification_channel_id">Notification</string>
+    <string name="action_search">action_search</string>
+    <string name="search_hint">Type name…</string>
+    <string name="info">Info</string>
+    <string name="about"><![CDATA[Deeplaid Laboratories Ltd. is a leading alternative medicine (Homoeo, Unani & Herbal) company in Bangladesh which is established in the year of 2000. This company is engaged in the manufacturing & marketing of a wide range of Homoeo, Unani & Herbal medicines and is acclaimed for outstanding product quality, world-class manufacturing facilities, product development capabilities and outstanding service.  Now a day we are going to advance label with Deeplaid sales order apps. our marketing employee  can - Create sales orders;  -show slab commission insistently  -AH approved this order ; -DH monitor all order; -get approved status ; Create purchase orders;  -Manage Customers ;]]></string>
+    <string name="companyAddress">5th Floor, Al-Habib Complex, Kaptan Bazar, \n  Wari, Dhaka 1203</string>
+
+
+    <string name="fb_app_id">2641389532644183</string>
+    <string name="account_kit_client_token">42573473373b9754cd884c7f5bed6939</string>
+    <string name="ak_login_protocol_schema">ak42573473373b9754cd884c7f5bed6939</string>
+    <string name="add">Add</string>
+    <string name="setting">Setting</string>
+    <string name="recycle">Recycle Bin</string>
+    <string name="sync">Sync</string>
+    <string name="item_update">Item Update</string>
+    <string name="commission_update">Commission Update</string>
+    <string name="group_update">Group Update</string>
+    <string name="doctor_update">Doctor Update</string>
+    <string name="mpo_update">MPO Update</string>
+
+    <string name="in_app_snack_bar_message">Update almost finished!</string>
+    <string name="in_app_snack_bar_action_title">RESTART</string>
+    <string name="restart">restart</string>
+    <string name="item_image">item Image</string>
+
+    <string name="update">Update</string>
+    <string name="print">Print</string>
+    <string name="export">Export</string>
+    <string name="next">পরবর্তী</string>
+
+    <string name="tab1">New Order</string>
+    <string name="tab2">ZH Approved</string>
+    <string name="tab3">Return Order</string>
+    <string name="tab4">Bill Done</string>
+    <string name="tab5">ZH App List</string>
+    <string name="student_name">Doctor/Party Name(<font color="#FF0000">*</font>)</string>
+    <string name="date_of_birth">Date Of Birth(<font color="#FF0000">*</font>)</string>
+
+    <string name="gender">Gender(<font color="#FF0000">*</font>)</string>
+    <string name="religion_text">Religion(<font color="#FF0000">*</font>)</string>
+
+    <string name="contact_number">Phone Number(<font color="#FF0000">*</font>)</string>
+    <string name="birth_registration_no">Birth Registration</string>
+
+
+    <string name="father_name">Father Name(<font color="#FF0000">*</font>)</string>
+    <string name="phone">Phone(<font color="#FF0000">*</font>)</string>
+    <string name="nid">NID(<font color="#FF0000">*</font>)</string>
+
+    <string name="mother_name">Mother Name(<font color="#FF0000">*</font>)</string>
+    <string name="phone_mo">Phone</string>
+    <string name="nid_mo">NID(<font color="#FF0000">*</font>)</string>
+    <string name="present_address">Present Address(<font color="#FF0000">*</font>)</string>
+    <string name="degree">Degree(<font color="#FF0000">*</font>)</string>
+    <string name="chamber_name">Chamber Name(<font color="#FF0000">*</font>)</string>
+    <string name="marital_status">Marital Status:</string>
+
 </resources>
