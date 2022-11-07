@@ -8,9 +8,9 @@ Face Detection(ML kit) (How much face present in One Image),
 Fece Recognition(ML Kit Tensor Flow) (How teach machine to Detect My Picture or Other Object) 
 
 
-01.Image to text
-02.Voice to button click
-03.Text to speech
+01.Image to text\n
+02.Voice to button click\n
+03.Text to speech\n
 04.Image pick Gallery/Camera/file
 05.Face Detection tensorFlow
 06.Br/Qr Scanner
