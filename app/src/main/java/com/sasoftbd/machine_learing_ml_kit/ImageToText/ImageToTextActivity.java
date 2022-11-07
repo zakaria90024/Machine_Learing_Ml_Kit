@@ -140,7 +140,6 @@ public class ImageToTextActivity extends AppCompatActivity {
         btn_play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(ImageToTextActivity.this, "Played", Toast.LENGTH_SHORT).show();
                 speak();
             }
         });
@@ -162,6 +161,9 @@ public class ImageToTextActivity extends AppCompatActivity {
 
         if (!txt_Show_Text.getText().toString().isEmpty()) {
             mtts.speak(txt_Show_Text.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
+            Toast.makeText(ImageToTextActivity.this, "Played", Toast.LENGTH_SHORT).show();
+        }else {
+            Toast.makeText(ImageToTextActivity.this, "Empty Text", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -190,7 +192,7 @@ public class ImageToTextActivity extends AppCompatActivity {
                     Intent intent = new Intent(ImageToTextActivity.this, ZoneActivity.class);
                     startActivity(intent);
                 }
-                if(Objects.requireNonNull(result).get(0).equals("Face") || Objects.requireNonNull(result).get(0).equals("face")){
+                if(Objects.requireNonNull(result).get(0).equals("Google") || Objects.requireNonNull(result).get(0).equals("google")){
                     Intent intent = new Intent(ImageToTextActivity.this, FaceDetectionActivity.class);
                     startActivity(intent);
                 }
