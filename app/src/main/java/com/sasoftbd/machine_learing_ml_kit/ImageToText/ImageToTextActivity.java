@@ -29,6 +29,7 @@ import com.google.android.gms.vision.text.TextBlock;
 import com.google.android.gms.vision.text.TextRecognizer;
 import com.sasoftbd.machine_learing_ml_kit.FaceDetection.FaceDetectionActivity;
 import com.sasoftbd.machine_learing_ml_kit.R;
+import com.sasoftbd.machine_learing_ml_kit.zone_Panel.ScannerActivity;
 import com.sasoftbd.machine_learing_ml_kit.zone_Panel.ZoneActivity;
 import com.theartofdev.edmodo.cropper.CropImage;
 import com.theartofdev.edmodo.cropper.CropImageView;
@@ -196,6 +197,14 @@ public class ImageToTextActivity extends AppCompatActivity {
                     Intent intent = new Intent(ImageToTextActivity.this, FaceDetectionActivity.class);
                     startActivity(intent);
                 }
+                if(Objects.requireNonNull(result).get(0).equals("Scan") || Objects.requireNonNull(result).get(0).equals("scan")){
+                    Intent intent = new Intent(ImageToTextActivity.this, ScannerActivity.class);
+                    startActivity(intent);
+                }
+                if(Objects.requireNonNull(result).get(0).equals("Qr") || Objects.requireNonNull(result).get(0).equals("qr")){
+                    Intent intent = new Intent(ImageToTextActivity.this, ScannerActivity.class);
+                    startActivity(intent);
+                }
             }
         }
 
@@ -242,10 +251,15 @@ public class ImageToTextActivity extends AppCompatActivity {
 
 
     private void copyToClipBoard(String text) {
-        ClipboardManager clipboardManager = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
-        ClipData clip = ClipData.newPlainText("Copied Date", text);
-        clipboardManager.setPrimaryClip(clip);
-        Toast.makeText(this, "Copied to Clipboard", Toast.LENGTH_SHORT).show();
+        if(!text.isEmpty()){
+            ClipboardManager clipboardManager = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+            ClipData clip = ClipData.newPlainText("Copied Date", text);
+            clipboardManager.setPrimaryClip(clip);
+            Toast.makeText(this, "Copied to Clipboard", Toast.LENGTH_SHORT).show();
+        }else {
+            Toast.makeText(this, "Empty Field", Toast.LENGTH_SHORT).show();
+        }
+
     }
 
 }

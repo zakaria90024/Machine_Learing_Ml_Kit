@@ -29,7 +29,7 @@
                 android:layout_width="290dp"
                 android:layout_height="240dp"
                 android:padding="8dp"
-                android:src="@drawable/pic2"
+                android:src="@drawable/dennis_ritchie"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -48,9 +48,10 @@
             <!--            //croped image-->
             <ImageView
                 android:id="@+id/croped_image"
-                android:layout_width="257dp"
-                android:layout_height="298dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:padding="8dp"
+                android:scaleType="fitCenter"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_Detect" />

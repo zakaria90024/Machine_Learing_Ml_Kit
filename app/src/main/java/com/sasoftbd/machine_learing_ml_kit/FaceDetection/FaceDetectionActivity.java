@@ -56,7 +56,7 @@ public class FaceDetectionActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.pic2);
+                Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.dennis_ritchie);
 
 //                Uri imguri = null;
 //                try {
@@ -91,7 +91,7 @@ public class FaceDetectionActivity extends AppCompatActivity {
                     @Override
                     public void onSuccess(List<Face> faces) {
                         //multiple face detect from one image
-                        Toast.makeText(FaceDetectionActivity.this, "Found Faces = " + faces.size(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(FaceDetectionActivity.this, "Found Faces = " + faces.size(), Toast.LENGTH_LONG).show();
                         for (Face face : faces) {
                             Rect rect = face.getBoundingBox();
                             rect.set(
