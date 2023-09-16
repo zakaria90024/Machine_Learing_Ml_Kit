@@ -86,9 +86,11 @@
     <string name="marital_status">Marital Status:</string>
     <string name="translate">Translate</string>
 
-    <array name="lan">
-        <item>en-bn</item>
-        <item>bn-en</item>
-    </array>
+    <string-array name="value">
+        <item>IPV4 (16 IP)</item>
+        <item>IPV6</item>
+        <item>BGP</item>
+        <item>Bandwith on demand</item>
+    </string-array>
 
 </resources>

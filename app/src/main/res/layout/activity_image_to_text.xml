@@ -28,7 +28,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="45dp"
         android:weightSum="2"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,19 +38,20 @@
             android:id="@+id/skb_1d"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:paddingLeft="10dp"
             android:layout_weight="1"
             android:gravity="left"
-            android:textSize="13dp"
-            android:text="Voice Commands :\nOpen=image to text,\nGoogle=face Detect, Scan/Qr, "
+            android:textSize="9dp"
+            android:text="Voice Commands :\nOpen=image to text,\nGoogle=face Detect, \nScan/Qr = Qr Code Scanner,"
             android:textAllCaps="false" />
 
         <TextView
             android:id="@+id/skb_2s"
-            android:visibility="gone"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="What=Whatapp UI"
+            android:textSize="9dp"
+            android:text="What=Whatapp UI\n Translation = bn-en Translation "
             android:textAllCaps="false" />
 
     </LinearLayout>
@@ -96,7 +97,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Say"
+            android:text="Command"
             android:textAllCaps="false" />
 
         <androidx.appcompat.widget.AppCompatButton
