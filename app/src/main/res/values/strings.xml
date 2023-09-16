@@ -84,5 +84,11 @@
     <string name="degree">Degree(<font color="#FF0000">*</font>)</string>
     <string name="chamber_name">Chamber Name(<font color="#FF0000">*</font>)</string>
     <string name="marital_status">Marital Status:</string>
+    <string name="translate">Translate</string>
+
+    <array name="lan">
+        <item>en-bn</item>
+        <item>bn-en</item>
+    </array>
 
 </resources>

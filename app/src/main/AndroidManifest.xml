@@ -12,18 +12,18 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="Mlkit"
+        android:label="ML-kit"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Machine_Learing_Ml_Kit"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".Translation.TranslationActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
-
+            android:exported="true"></activity>
         <activity
             android:name=".FaceDetection.FaceDetectionActivity"
             android:exported="true" />
@@ -50,9 +50,8 @@
             android:exported="false" />
         <activity
             android:name=".zone_Panel.ZoneActivity"
-            android:theme="@style/AppThemeZone"
-            android:exported="true" />
-
+            android:exported="true"
+            android:theme="@style/AppThemeZone" />
     </application>
 
 </manifest>

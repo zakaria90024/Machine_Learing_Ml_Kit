@@ -65,4 +65,8 @@ dependencies {
 
     //Dexter runtime permissions
     implementation 'com.karumi:dexter:6.2.1'
+
+    //for translate to english to bangla
+    implementation 'com.google.mlkit:translate:17.0.1'
+
 }
