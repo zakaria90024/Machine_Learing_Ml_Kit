@@ -51,7 +51,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="9dp"
-            android:text="What=Whatapp UI\n Translation = bn-en Translation "
+            android:text="What=Whatapp UI\n Translation = bn-en Translation\n Fan = Image to fan on/off\n Light = Wifi Light on/Off "
             android:textAllCaps="false" />
 
     </LinearLayout>

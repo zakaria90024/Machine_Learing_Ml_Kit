@@ -29,6 +29,9 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    buildFeatures {
+        mlModelBinding true
+    }
 
 }
 
@@ -68,5 +71,9 @@ dependencies {
 
     //for translate to english to bangla
     implementation 'com.google.mlkit:translate:17.0.1'
+
+    //image classification
+    implementation 'org.tensorflow:tensorflow-lite-support:0.1.0'
+    implementation 'org.tensorflow:tensorflow-lite-metadata:0.1.0'
 
 }

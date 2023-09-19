@@ -19,11 +19,14 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".LightSwitchActivity"
+            android:exported="false" />
+        <activity
             android:name=".Translation.TranslationActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".FaceDetection.FaceDetectionActivity"
             android:exported="true" />
@@ -38,6 +41,9 @@
         </activity>
         <activity
             android:name=".problem_solving_java.ProblemTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FanOnOffModel.MainActivityFan"
             android:exported="false" />
         <activity
             android:name=".AutoScrollingBanner.AutoScrollingActivity"
