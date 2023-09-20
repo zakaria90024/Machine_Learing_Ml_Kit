@@ -31,6 +31,7 @@ import com.sasoftbd.machine_learing_ml_kit.FaceDetection.FaceDetectionActivity;
 import com.sasoftbd.machine_learing_ml_kit.FanOnOffModel.MainActivityFan;
 import com.sasoftbd.machine_learing_ml_kit.R;
 import com.sasoftbd.machine_learing_ml_kit.Translation.TranslationActivity;
+import com.sasoftbd.machine_learing_ml_kit.esp32light.LightSwitchActivity;
 import com.sasoftbd.machine_learing_ml_kit.zone_Panel.ScannerActivity;
 import com.sasoftbd.machine_learing_ml_kit.zone_Panel.ZoneActivity;
 import com.theartofdev.edmodo.cropper.CropImage;
@@ -216,7 +217,7 @@ public class ImageToTextActivity extends AppCompatActivity {
                     startActivity(intent);
                 }
                 if(Objects.requireNonNull(result).get(0).equals("Light") || Objects.requireNonNull(result).get(0).equals("light")){
-                    Intent intent = new Intent(ImageToTextActivity.this, MainActivityFan.class);
+                    Intent intent = new Intent(ImageToTextActivity.this, LightSwitchActivity.class);
                     startActivity(intent);
                 }
             }
