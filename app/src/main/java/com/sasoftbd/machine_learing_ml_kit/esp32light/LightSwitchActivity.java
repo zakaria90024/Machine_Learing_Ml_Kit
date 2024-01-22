@@ -20,6 +20,5 @@ public class LightSwitchActivity extends AppCompatActivity {
         myWebView.loadUrl("http://192.168.4.1/L");
         myWebView.setWebViewClient(new WebViewClient());
 
-        //TEST THIS APPS
     }
 }
