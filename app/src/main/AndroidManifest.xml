@@ -47,7 +47,7 @@
             android:name=".esp32light.LightSwitchActivity"
             android:exported="false" />
         <activity
-            android:name=".AutoScrollingBanner.AutoScrollingActivity"
+            android:name=".problem_solving_java.AutoScrollingBanner.AutoScrollingActivity"
             android:exported="true" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"

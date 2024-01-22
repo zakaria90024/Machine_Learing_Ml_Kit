@@ -212,7 +212,7 @@ public class ImageToTextActivity extends AppCompatActivity {
                     Intent intent = new Intent(ImageToTextActivity.this, TranslationActivity.class);
                     startActivity(intent);
                 }
-                if(Objects.requireNonNull(result).get(0).equals("Fan") || Objects.requireNonNull(result).get(0).equals("fan")){
+                if(Objects.requireNonNull(result).get(0).equals("Hello") || Objects.requireNonNull(result).get(0).equals("hello")){
                     Intent intent = new Intent(ImageToTextActivity.this, MainActivityFan.class);
                     startActivity(intent);
                 }

@@ -1,4 +1,4 @@
-package com.sasoftbd.machine_learing_ml_kit.AutoScrollingBanner;
+package com.sasoftbd.machine_learing_ml_kit.problem_solving_java.AutoScrollingBanner;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
