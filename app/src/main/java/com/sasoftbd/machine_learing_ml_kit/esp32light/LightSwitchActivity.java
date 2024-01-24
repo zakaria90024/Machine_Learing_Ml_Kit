@@ -21,5 +21,7 @@ public class LightSwitchActivity extends AppCompatActivity {
         myWebView.setWebViewClient(new WebViewClient());
 
 
+        //test project
+
     }
 }
